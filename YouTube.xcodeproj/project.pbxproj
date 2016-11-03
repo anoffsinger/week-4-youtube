@@ -14,6 +14,9 @@
 		8522AD131DCB40A300A16918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8522AD111DCB40A300A16918 /* LaunchScreen.storyboard */; };
 		8522AD1E1DCB40A300A16918 /* YouTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8522AD1D1DCB40A300A16918 /* YouTubeTests.swift */; };
 		8522AD291DCB40A300A16918 /* YouTubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8522AD281DCB40A300A16918 /* YouTubeUITests.swift */; };
+		8522AD3B1DCB445600A16918 /* HamburgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8522AD3A1DCB445600A16918 /* HamburgerViewController.swift */; };
+		85AF5C591DCB5B1C00010772 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF5C581DCB5B1C00010772 /* MenuViewController.swift */; };
+		85AF5C5B1DCB5F3300010772 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF5C5A1DCB5F3300010772 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8522AD241DCB40A300A16918 /* YouTubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8522AD281DCB40A300A16918 /* YouTubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeUITests.swift; sourceTree = "<group>"; };
 		8522AD2A1DCB40A300A16918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8522AD3A1DCB445600A16918 /* HamburgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamburgerViewController.swift; sourceTree = "<group>"; };
+		85AF5C581DCB5B1C00010772 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		85AF5C5A1DCB5F3300010772 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				8522AD081DCB40A300A16918 /* AppDelegate.swift */,
 				8522AD0A1DCB40A300A16918 /* ViewController.swift */,
 				8522AD0C1DCB40A300A16918 /* Main.storyboard */,
+				85AF5C5A1DCB5F3300010772 /* FeedViewController.swift */,
+				85AF5C581DCB5B1C00010772 /* MenuViewController.swift */,
+				8522AD3A1DCB445600A16918 /* HamburgerViewController.swift */,
 				8522AD0F1DCB40A300A16918 /* Assets.xcassets */,
 				8522AD111DCB40A300A16918 /* LaunchScreen.storyboard */,
 				8522AD141DCB40A300A16918 /* Info.plist */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8522AD0B1DCB40A300A16918 /* ViewController.swift in Sources */,
+				8522AD3B1DCB445600A16918 /* HamburgerViewController.swift in Sources */,
+				85AF5C5B1DCB5F3300010772 /* FeedViewController.swift in Sources */,
 				8522AD091DCB40A300A16918 /* AppDelegate.swift in Sources */,
+				85AF5C591DCB5B1C00010772 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +515,7 @@
 				8522AD2F1DCB40A300A16918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8522AD301DCB40A300A16918 /* Build configuration list for PBXNativeTarget "YouTubeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +524,7 @@
 				8522AD321DCB40A300A16918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8522AD331DCB40A300A16918 /* Build configuration list for PBXNativeTarget "YouTubeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +533,7 @@
 				8522AD351DCB40A300A16918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
